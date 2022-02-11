@@ -69,7 +69,7 @@ const projectCard = [
 ];
 
 document.querySelector('.speakers-containers').innerHTML = projectCard.map((data) => `
-  <li class="speakers-target col-12 col-md-6">
+  <div class="speakers-target col-12 col-md-6">
   <div class="row mb-5  p-4 bg-white ">
   <div class="col-3  pr-0 pl-0">
      <img src=${data.Image} width="120" alt="speaker1"/>
@@ -81,7 +81,7 @@ document.querySelector('.speakers-containers').innerHTML = projectCard.map((data
     <p>${data.Occupation}</p>
   </div>
   </div>
-</li>
+</div>
   `).join('');
 
 function Speaker() {
