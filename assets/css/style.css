@@ -75,7 +75,7 @@ ul li {
 }
 
 .main-section {
-  background-image: url("/assets/images/program-bg.jpg");
+  background-image: url("../images/program-bg.jpg");
 }
 
 .text-header {
