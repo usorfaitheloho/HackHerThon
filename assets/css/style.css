@@ -121,7 +121,7 @@ ul li {
 }
 
 .partners-text p {
-  font-size: 35px;
+  font-size: 25px;
   font-family: 'Lato', sans-serif;
 }
 
@@ -275,6 +275,10 @@ ul li {
     float: left;
     position: relative;
     left: 20px;
+  }
+
+  .main-about {
+    width: initial;
   }
 
   .menu_link a {
