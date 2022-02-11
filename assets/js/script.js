@@ -69,15 +69,16 @@ const projectCard = [
 ];
 
 document.querySelector('.speakers-containers').innerHTML = projectCard.map((data) => `
-  <div class="speakers-target col-12 col-md-6">
-  <div class="row mb-5  p-4 bg-white ">
+  <div class="speakers-target col-12 col-md-5">
+  <div class="back-img row mb-5  p-4">
+  <div class = "speakers-background"><img src="./assets/images/draft.jpg"/> </div>
   <div class="col-3  pr-0 pl-0">
      <img src=${data.Image} width="120" alt="speaker1"/>
   </div>
   <div class="col-9 speaker-block pr-0 ">
-    <h3 class="mb-1 section-title font-weight-bold">${data.Name}</h3>
+    <h3 class=" section-title font-weight-bold">${data.Name}</h3>
     <p class="orange font-italic">${data.Position}</p>
-    <hr class="hr-speakers ml-0 mb-3">
+    <span class="hr-speakers ml-0 mb-3"> </span>
     <p>${data.Occupation}</p>
   </div>
   </div>
