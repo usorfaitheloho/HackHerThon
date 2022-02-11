@@ -1,5 +1,4 @@
-# Capstone-project1
-# young-tech-conference
+# Hackherton conference
 
 This project is focused on building an conference website for a hackherton competition for girls"
 
