@@ -1,0 +1,376 @@
+
+body {
+  overflow-x: hidden;
+}
+
+h1,
+h2 {
+  font-family: 'Cocogoose', sans-serif;
+}
+
+h3,
+h4 {
+  font-family: 'Lato', sans-serif;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+ul li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+#navigation li a {
+  color: #000;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  background-color: #ffff;
+}
+
+#Campaign {
+  border: 5px solid  #ec5242;
+}
+
+.intro-section {
+  min-height: 100vh;
+  background: white;
+  background-image: url("../images/header.jpg");
+  font-family: 'Lato', sans-serif;
+  margin-top: 50px;
+}
+
+.intro-section p {
+  font-size: 15px;
+}
+
+.hamburger {
+  display: none;
+}
+
+.hello {
+  margin-top: 50px;
+  position: relative;
+  height: 10%;
+  padding-top: 130px;
+  font-weight: 400;
+  font-size: 48px;
+  color: #ec5242;
+}
+
+.creative {
+  font-weight: 400;
+  font-size: 60px;
+  color: #ec5242;
+}
+
+.section_title_hr {
+  border: 1px solid #ec5242;
+  width: 10%;
+}
+
+.main-section {
+  background-image: url("../images/program-bg.jpg");
+}
+
+.text-header {
+  color: #ec5242;
+}
+
+.main-item:hover {
+  border: 2px solid #fff;
+}
+
+.speakers {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.black {
+  background-color: #272a31;
+  height: 30vh;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.lecture-body {
+  width: 200vh;
+}
+
+.back-img {
+  position: relative;
+}
+
+.speakers-target {
+  width: 80px;
+  margin: auto;
+}
+
+.partners-text {
+  color: #d3d3d393;
+  align-items: center;
+}
+
+.partners-text p {
+  font-size: 25px;
+  font-family: 'Lato', sans-serif;
+}
+
+.featured_speakers {
+  background-color: #272a310a;
+}
+
+.speakers-background {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+}
+
+.hr-speakers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 2px;
+  margin-top: -5px;
+  background-color: #272a3118;
+}
+
+.speaker-block .orange {
+  color: #ec5242;
+}
+
+.speakers-background img {
+  width: 80px;
+  height: 80px;
+}
+
+.section_desktop_hr {
+  margin-top: -10px;
+  border: 1px solid #f8f8f8;
+  width: 13%;
+}
+
+.about-section {
+  background: #f8f8f8;
+  background-image: url("../images/about-bg.png");
+  background-size: contain;
+  padding: 40px 0 10px 0;
+}
+
+.about-main {
+  border: 2px solid #f8f8f8;
+}
+
+#image-container {
+  position: relative;
+  margin-top: 50px;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 100px;
+  right: 50px;
+  opacity: 0.9;
+  background-color: #ac2314;
+  color: #f8f8f8;
+  margin-bottom: -120px;
+  padding-left: 20px;
+  padding-right: 40px;
+  width: 300px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text-block p {
+  text-align: center;
+}
+
+.past-event {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.more-speakers {
+  display: none;
+}
+
+.program-button-mobile {
+  display: none;
+}
+
+.first_img {
+  background-image: linear-gradient(rgba(236, 82, 66, 0.5), rgba(236, 82, 66, 0.5)), url("../images/omobolanle.jpg");
+  background-size: cover;
+}
+
+.second_img {
+  background-image: linear-gradient(rgba(236, 82, 66, 0.5), rgba(236, 82, 66, 0.5)), url("../images/omobolanle.jpg");
+  background-size: cover;
+}
+
+@media screen and (max-width: 767px) {
+  .first-nav {
+    display: none;
+    margin-top: 0;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .hamburger i {
+    font-size: 2rem;
+    cursor: pointer;
+    position: absolute;
+    top: 19px;
+    right: 9px;
+    margin-top: 12px;
+    margin-right: 20px;
+    z-index: 10;
+  }
+
+  .mobile_nav {
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    transform: translateY(80px);
+    padding: 0 0 0 20px;
+  }
+
+  .toggle-menu {
+    background-color: #272a31;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+  }
+
+  .close_bracket {
+    color: #ec5242;
+    float: left;
+    position: relative;
+    left: 20px;
+  }
+
+  .main-about {
+    width: initial;
+  }
+
+  .menu_link a {
+    padding: 8px 8px 8px 3px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    display: block;
+    margin-top: 10px;
+    align-items: center;
+    color: #ec5242;
+  }
+
+  .hello {
+    font-size: 30px;
+  }
+
+  .creative {
+    font-size: 35px;
+  }
+
+  .intro-section {
+    margin-top: -80px;
+  }
+
+  .lecture-body {
+    width: initial;
+  }
+
+  .speakers-filter {
+    display: none;
+  }
+
+  .speaker-block {
+    padding-left: 72px;
+  }
+
+  .img-partner {
+    width: 60px;
+  }
+
+  .program-button-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+  }
+
+  .program-button-mobile a {
+    font-size: 18px;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #ec5242;
+    padding: 10px;
+  }
+
+  .program-button {
+    display: none;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .more-speakers {
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+    background: none;
+    border: 1px solid gainsboro;
+    padding: 10px;
+    outline: none;
+  }
+
+  .more-speakers i {
+    color: #ec5242;
+  }
+
+  .image-container {
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+  }
+
+  .past-event {
+    flex-direction: column;
+    margin-top: 30px;
+    justify-content: space-between;
+  }
+}
