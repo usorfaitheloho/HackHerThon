@@ -8,10 +8,8 @@ container.style.visibility = 'hidden';
 function changeIcon() {
   icon.classList.toggle('fa-times');
   icon.classList.toggle('fa-bars');
-  //   icon.style.position = 'absolute';
   logo.style.visibility = 'hidden';
   icon.style.left = '20px';
-  //   icon.style.marginRight = '24px';
   if (container.style.visibility === 'hidden') {
     container.style.visibility = 'visible';
   } else if (container.style.visibility !== 'hidden') {
