@@ -18,7 +18,7 @@ The project will contain the homepage and about page.
 
 ## Live Demo
 
-[Live Demo Link](https://usorfaitheloho.github.io/Capstone-project1/)
+[Live Demo Link](https://hackherthon.netlify.app)
 
 To get a local copy up and running follow these simple example steps.
 
